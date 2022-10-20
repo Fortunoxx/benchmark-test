@@ -43,7 +43,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            var summary = BenchmarkRunner.Run<YABenchmark>();
+            // var summary = BenchmarkRunner.Run<YABenchmark>();
+            var summary = BenchmarkRunner.Run<EnumBenchmark>();
         }
     }
 }
